@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuite-Normal" duration-ms="384550" started-at="2023-05-11T17:52:39 IST" finished-at="2023-05-11T17:59:04 IST">
+    <groups>
+      <group name="high">
+        <method signature="CartPageValidationTest.emptyCartValidation()[pri:0, instance:tests.CartPageValidationTest@16022d9d]" name="emptyCartValidation" class="tests.CartPageValidationTest"/>
+        <method signature="HomePageTest.verifySignInLink()[pri:0, instance:tests.HomePageTest@10d59286]" name="verifySignInLink" class="tests.HomePageTest"/>
+        <method signature="LoginPageTest.userSignUpScenario()[pri:0, instance:tests.LoginPageTest@281e3708]" name="userSignUpScenario" class="tests.LoginPageTest"/>
+      </group> <!-- high -->
+      <group name="low">
+        <method signature="HomePageTest.verifyShopNewYogaButton()[pri:0, instance:tests.HomePageTest@10d59286]" name="verifyShopNewYogaButton" class="tests.HomePageTest"/>
+        <method signature="LoginPageTest.userLoggedInScenario()[pri:0, instance:tests.LoginPageTest@281e3708]" name="userLoggedInScenario" class="tests.LoginPageTest"/>
+      </group> <!-- low -->
+    </groups>
+    <test name="Test" duration-ms="384550" started-at="2023-05-11T17:52:39 IST" finished-at="2023-05-11T17:59:04 IST">
+      <class name="tests.WomensItemsOrderingTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.WomensItemsOrderingTest@587c290d]" name="setUp" is-config="true" duration-ms="0" started-at="2023-05-11T17:52:39 IST" finished-at="2023-05-11T17:52:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="openUrl()[pri:0, instance:tests.WomensItemsOrderingTest@587c290d]" name="openUrl" is-config="true" duration-ms="5139" started-at="2023-05-11T17:53:42 IST" finished-at="2023-05-11T17:53:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method status="PASS" signature="testWomenJacketsOrdering(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.WomensItemsOrderingTest@587c290d]" name="testWomenJacketsOrdering" duration-ms="52881" started-at="2023-05-11T17:53:47 IST" data-provider="getTestDataFromExcel" finished-at="2023-05-11T17:54:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[M]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Blue]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Cotton]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWomenJacketsOrdering -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.WomensItemsOrderingTest@587c290d]" name="tearDown" is-config="true" duration-ms="3271" started-at="2023-05-11T17:54:40 IST" finished-at="2023-05-11T17:54:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="openUrl()[pri:0, instance:tests.WomensItemsOrderingTest@587c290d]" name="openUrl" is-config="true" duration-ms="6301" started-at="2023-05-11T17:54:43 IST" finished-at="2023-05-11T17:54:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method status="PASS" signature="testWomenJacketsOrdering(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.WomensItemsOrderingTest@587c290d]" name="testWomenJacketsOrdering" duration-ms="52492" started-at="2023-05-11T17:54:49 IST" data-provider="getTestDataFromExcel" finished-at="2023-05-11T17:55:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[XL]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Red]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Fleece]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWomenJacketsOrdering -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.WomensItemsOrderingTest@587c290d]" name="tearDown" is-config="true" duration-ms="3369" started-at="2023-05-11T17:55:42 IST" finished-at="2023-05-11T17:55:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="openUrl()[pri:0, instance:tests.WomensItemsOrderingTest@587c290d]" name="openUrl" is-config="true" duration-ms="4869" started-at="2023-05-11T17:55:45 IST" finished-at="2023-05-11T17:55:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method status="PASS" signature="testWomenJacketsOrdering(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.WomensItemsOrderingTest@587c290d]" name="testWomenJacketsOrdering" duration-ms="52013" started-at="2023-05-11T17:55:50 IST" data-provider="getTestDataFromExcel" finished-at="2023-05-11T17:56:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[L]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gray]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Polyester]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWomenJacketsOrdering -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.WomensItemsOrderingTest@587c290d]" name="tearDown" is-config="true" duration-ms="3363" started-at="2023-05-11T17:56:42 IST" finished-at="2023-05-11T17:56:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="flushingReports()[pri:0, instance:tests.WomensItemsOrderingTest@587c290d]" name="flushingReports" is-config="true" duration-ms="476" started-at="2023-05-11T17:59:03 IST" finished-at="2023-05-11T17:59:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushingReports -->
+      </class> <!-- tests.WomensItemsOrderingTest -->
+      <class name="tests.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.HomePageTest@10d59286]" name="setUp" is-config="true" duration-ms="0" started-at="2023-05-11T17:52:39 IST" finished-at="2023-05-11T17:52:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="openUrl()[pri:0, instance:tests.HomePageTest@10d59286]" name="openUrl" is-config="true" duration-ms="10134" started-at="2023-05-11T17:52:39 IST" finished-at="2023-05-11T17:52:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method status="PASS" signature="verifyShopNewYogaButton()[pri:0, instance:tests.HomePageTest@10d59286]" name="verifyShopNewYogaButton" duration-ms="1147" started-at="2023-05-11T17:52:49 IST" finished-at="2023-05-11T17:52:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyShopNewYogaButton -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.HomePageTest@10d59286]" name="tearDown" is-config="true" duration-ms="3259" started-at="2023-05-11T17:52:50 IST" finished-at="2023-05-11T17:52:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="openUrl()[pri:0, instance:tests.HomePageTest@10d59286]" name="openUrl" is-config="true" duration-ms="6173" started-at="2023-05-11T17:52:54 IST" finished-at="2023-05-11T17:53:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method status="PASS" signature="verifySignInLink()[pri:0, instance:tests.HomePageTest@10d59286]" name="verifySignInLink" duration-ms="994" started-at="2023-05-11T17:53:00 IST" finished-at="2023-05-11T17:53:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignInLink -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.HomePageTest@10d59286]" name="tearDown" is-config="true" duration-ms="3317" started-at="2023-05-11T17:53:01 IST" finished-at="2023-05-11T17:53:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="flushingReports()[pri:0, instance:tests.HomePageTest@10d59286]" name="flushingReports" is-config="true" duration-ms="575" started-at="2023-05-11T17:59:01 IST" finished-at="2023-05-11T17:59:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushingReports -->
+      </class> <!-- tests.HomePageTest -->
+      <class name="tests.GuestUserOrderingTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.GuestUserOrderingTest@768b970c]" name="setUp" is-config="true" duration-ms="1" started-at="2023-05-11T17:52:39 IST" finished-at="2023-05-11T17:52:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="openUrl()[pri:0, instance:tests.GuestUserOrderingTest@768b970c]" name="openUrl" is-config="true" duration-ms="6030" started-at="2023-05-11T17:58:09 IST" finished-at="2023-05-11T17:58:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method status="PASS" signature="testGuestUserOrdering(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.GuestUserOrderingTest@768b970c]" name="testGuestUserOrdering" duration-ms="41483" started-at="2023-05-11T17:58:15 IST" data-provider="SearchProvider" finished-at="2023-05-11T17:58:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[32]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Black]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Rayon]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGuestUserOrdering -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.GuestUserOrderingTest@768b970c]" name="tearDown" is-config="true" duration-ms="3391" started-at="2023-05-11T17:58:57 IST" finished-at="2023-05-11T17:59:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="flushingReports()[pri:0, instance:tests.GuestUserOrderingTest@768b970c]" name="flushingReports" is-config="true" duration-ms="516" started-at="2023-05-11T17:59:01 IST" finished-at="2023-05-11T17:59:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushingReports -->
+      </class> <!-- tests.GuestUserOrderingTest -->
+      <class name="tests.MensItemsOrderingTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.MensItemsOrderingTest@543788f3]" name="setUp" is-config="true" duration-ms="1" started-at="2023-05-11T17:52:39 IST" finished-at="2023-05-11T17:52:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="openUrl()[pri:0, instance:tests.MensItemsOrderingTest@543788f3]" name="openUrl" is-config="true" duration-ms="7007" started-at="2023-05-11T17:56:46 IST" finished-at="2023-05-11T17:56:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method status="PASS" signature="testMenShortsOrdering(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.MensItemsOrderingTest@543788f3]" name="testMenShortsOrdering" duration-ms="53474" started-at="2023-05-11T17:56:53 IST" data-provider="SearchProvider" finished-at="2023-05-11T17:57:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[32]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Black]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Rayon]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMenShortsOrdering -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.MensItemsOrderingTest@543788f3]" name="tearDown" is-config="true" duration-ms="3258" started-at="2023-05-11T17:57:46 IST" finished-at="2023-05-11T17:57:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="flushingReports()[pri:0, instance:tests.MensItemsOrderingTest@543788f3]" name="flushingReports" is-config="true" duration-ms="483" started-at="2023-05-11T17:59:03 IST" finished-at="2023-05-11T17:59:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushingReports -->
+      </class> <!-- tests.MensItemsOrderingTest -->
+      <class name="tests.CartPageValidationTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.CartPageValidationTest@16022d9d]" name="setUp" is-config="true" duration-ms="216" started-at="2023-05-11T17:52:39 IST" finished-at="2023-05-11T17:52:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="openUrl()[pri:0, instance:tests.CartPageValidationTest@16022d9d]" name="openUrl" is-config="true" duration-ms="5818" started-at="2023-05-11T17:57:49 IST" finished-at="2023-05-11T17:57:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method status="PASS" signature="emptyCartValidation()[pri:0, instance:tests.CartPageValidationTest@16022d9d]" name="emptyCartValidation" duration-ms="11001" started-at="2023-05-11T17:57:55 IST" finished-at="2023-05-11T17:58:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyCartValidation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.CartPageValidationTest@16022d9d]" name="tearDown" is-config="true" duration-ms="3240" started-at="2023-05-11T17:58:06 IST" finished-at="2023-05-11T17:58:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="flushingReports()[pri:0, instance:tests.CartPageValidationTest@16022d9d]" name="flushingReports" is-config="true" duration-ms="693" started-at="2023-05-11T17:59:00 IST" finished-at="2023-05-11T17:59:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushingReports -->
+      </class> <!-- tests.CartPageValidationTest -->
+      <class name="tests.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.LoginPageTest@281e3708]" name="setUp" is-config="true" duration-ms="1" started-at="2023-05-11T17:52:39 IST" finished-at="2023-05-11T17:52:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="openUrl()[pri:0, instance:tests.LoginPageTest@281e3708]" name="openUrl" is-config="true" duration-ms="5593" started-at="2023-05-11T17:53:04 IST" finished-at="2023-05-11T17:53:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method status="PASS" signature="userLoggedInScenario()[pri:0, instance:tests.LoginPageTest@281e3708]" name="userLoggedInScenario" duration-ms="7611" started-at="2023-05-11T17:53:10 IST" finished-at="2023-05-11T17:53:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLoggedInScenario -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.LoginPageTest@281e3708]" name="tearDown" is-config="true" duration-ms="3338" started-at="2023-05-11T17:53:17 IST" finished-at="2023-05-11T17:53:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="openUrl()[pri:0, instance:tests.LoginPageTest@281e3708]" name="openUrl" is-config="true" duration-ms="6521" started-at="2023-05-11T17:53:21 IST" finished-at="2023-05-11T17:53:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method status="PASS" signature="userSignUpScenario()[pri:0, instance:tests.LoginPageTest@281e3708]" name="userSignUpScenario" duration-ms="10581" started-at="2023-05-11T17:53:27 IST" finished-at="2023-05-11T17:53:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userSignUpScenario -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.LoginPageTest@281e3708]" name="tearDown" is-config="true" duration-ms="3365" started-at="2023-05-11T17:53:38 IST" finished-at="2023-05-11T17:53:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="flushingReports()[pri:0, instance:tests.LoginPageTest@281e3708]" name="flushingReports" is-config="true" duration-ms="490" started-at="2023-05-11T17:59:02 IST" finished-at="2023-05-11T17:59:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushingReports -->
+      </class> <!-- tests.LoginPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- TestSuite-Normal -->
+</testng-results>
